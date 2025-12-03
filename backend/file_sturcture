@@ -1,0 +1,14 @@
+restaurant_recommender/
+├─ .env
+; ├─ README.md
+├─ requirements.txt
+; ├─ Dockerfile          (optional)
+; ├─ docker-compose.yml  (optional)
+├─ sql/
+│  └─ schema.sql
+├─ main.py
+├─ recommend_groq.py
+├─ redis_cache.py
+├─ database.py
+└─ recommender/
+   └─ __init__.py
