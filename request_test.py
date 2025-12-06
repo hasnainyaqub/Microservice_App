@@ -1,14 +1,14 @@
 import requests
 
-url = "http://localhost:8002/api/recommend"
+url = "http://localhost:8004/api/recommend"
 payload = {
     "branch": 1,
     "question": {
-        "peoples": 2,
+        "peoples": 6,
         "mood": "happy",
         "spice_lvl": "medium",
         "avoid_anything": "nuts",
-        "budget": "medium"
+        "budget": "tight"
     }
 }
 
